@@ -11,4 +11,7 @@ package atividade18.pkg11.pkg2019;
  */
 public interface PayStrategy {
     
+    boolean pay(int paymentAmount);
+    void collectPaymentDetails();
+    
 }
